@@ -11,11 +11,8 @@ function App() {
   return (
     <div className="App">
       {peopleArr.map(person => {
-        return <PersonComponent firstName={person.firstName} lastName={person.lastName} age={person.age} hairColor={person.hairColor}></PersonComponent>
+        return <PersonComponent firstName={person.firstName} lastName={person.lastName} age={person.age} hairColor={person.hairColor} ></PersonComponent>
       })}
-
-
-
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
